@@ -1,0 +1,16 @@
+v 4
+file . "logic_tb.vhdl" "662f80758c4b23e52f1df52303204b3b1b84536c" "20220501184735.353":
+  entity logic_tb at 1( 0) + 0 on 19;
+  architecture behave of logic_tb at 7( 84) + 0 on 20;
+file . "ALU8bit_tb.vhdl" "fef0588494cd8dcdf164a9f446e6fbefdab770e1" "20220501224232.295":
+  entity alu8bit_tb at 1( 0) + 0 on 27;
+  architecture behave of alu8bit_tb at 7( 88) + 0 on 28;
+file . "full_adder.vhdl" "f7238f2caea7d606a4d4ace5c8f19ee8af239ddf" "20220501224224.045":
+  entity full_adder at 1( 0) + 0 on 23;
+  architecture behave of full_adder at 15( 293) + 0 on 24;
+file . "ALU8bit.vhdl" "abbeed3660a27468f8df7738a8d07da80da626d5" "20220501224229.567":
+  entity alu8bit at 1( 0) + 0 on 25;
+  architecture behave of alu8bit at 15( 410) + 0 on 26;
+file . "logic.vhdl" "6b134088e99bfca8a0fe6e31b804658b529b16ba" "20220501184738.543":
+  entity logic at 1( 0) + 0 on 21;
+  architecture behave of logic at 12( 181) + 0 on 22;

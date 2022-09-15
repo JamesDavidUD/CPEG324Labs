@@ -1,0 +1,53 @@
+$date
+  Sat Apr 02 16:52:53 2022
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$var reg 4 ! in0[3:0] $end
+$var reg 4 " in1[3:0] $end
+$var reg 4 # in2[3:0] $end
+$var reg 4 $ in3[3:0] $end
+$var reg 2 % sel[1:0] $end
+$var reg 4 & z[3:0] $end
+$scope module multiplexer $end
+$var reg 4 ' in0[3:0] $end
+$var reg 4 ( in1[3:0] $end
+$var reg 4 ) in2[3:0] $end
+$var reg 4 * in3[3:0] $end
+$var reg 2 + sel[1:0] $end
+$var reg 4 , z[3:0] $end
+$upscope $end
+$enddefinitions $end
+#0
+b1100 !
+b0110 "
+b0011 #
+b0001 $
+b00 %
+b1100 &
+b1100 '
+b0110 (
+b0011 )
+b0001 *
+b00 +
+b1100 ,
+#5000000
+b01 %
+b0110 &
+b01 +
+b0110 ,
+#10000000
+b10 %
+b0011 &
+b10 +
+b0011 ,
+#15000000
+b11 %
+b0001 &
+b11 +
+b0001 ,
+#20000000
